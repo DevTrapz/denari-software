@@ -1,7 +1,18 @@
-const jsonPayload = require("./JsonData.json");
+const jsonPayload = require("./data/webhook-test-data.json");
 const moment = require("moment");
 
-const { data } = jsonPayload;
+module.exports = {
+  calc,
+};
+
+const data = jsonPayload.JSONPayload;
+
+const donorBoard = {
+  columns: {
+    childFirst: "text3",
+    childLast: "text9",
+  },
+};
 
 const textColumnIds = {
   ["Child First"]: "text3",
@@ -69,7 +80,7 @@ function getDateColumnValue(date) {
 }
 
 const newTextColumnValues = {
-  name: data["Child_Full_Name"],
+  // name: data["Child_Full_Name"],
   [textColumnIds["Child First"]]: data["Child_First"],
   [textColumnIds["Child Last"]]: data["Child_Last"],
   [textColumnIds["comp_ref"]]: data["Comp_Ref"],
@@ -105,6 +116,10 @@ const newColumnValues = {
   ...newStatusColumnValues,
   ...newDateColumnValues,
 };
+
+function calc(num, num2) {
+  return num + num2;
+}
 
 for (const [key, value] of Object.entries(newColumnValues)) {
   if (value == null) delete newColumnValues[key];
