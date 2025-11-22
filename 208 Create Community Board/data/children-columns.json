@@ -1,0 +1,292 @@
+[
+  {
+    "id": "board_relation_mkqa3b0p",
+    "title": "Sponsorships",
+    "type": "board_relation"
+  },
+  {
+    "id": "board_relation_mkqa92m3",
+    "title": "CommLog",
+    "type": "board_relation"
+  },
+  {
+    "id": "text17",
+    "title": "Child Code",
+    "type": "text"
+  },
+  {
+    "id": "color_mkqftpf3",
+    "title": "Data Validated⚡",
+    "type": "status"
+  },
+  {
+    "id": "button_mkqfhg6c",
+    "title": "Post NOW",
+    "type": "button"
+  },
+  {
+    "id": "formula4",
+    "title": "ALERT⚡",
+    "type": "formula"
+  },
+  {
+    "id": "status01",
+    "title": "Posting Status⚡",
+    "type": "status"
+  },
+  {
+    "id": "date9",
+    "title": "Last Post Date⚡",
+    "type": "date"
+  },
+  {
+    "id": "last_updated_1",
+    "title": "Last Updated",
+    "type": "last_updated"
+  },
+  {
+    "id": "connect_boards__1",
+    "title": "HTF Child Details - H4H",
+    "type": "board_relation"
+  },
+  {
+    "id": "files",
+    "title": "Files",
+    "type": "file"
+  },
+  {
+    "id": "status",
+    "title": "Child Status",
+    "type": "status"
+  },
+  {
+    "id": "status77",
+    "title": "On Hold",
+    "type": "status"
+  },
+  {
+    "id": "status2",
+    "title": "Hold Reason",
+    "type": "status"
+  },
+  {
+    "id": "date0",
+    "title": "Hold Date",
+    "type": "date"
+  },
+  {
+    "id": "text3",
+    "title": "Child First",
+    "type": "text"
+  },
+  {
+    "id": "text9",
+    "title": "Child Last",
+    "type": "text"
+  },
+  {
+    "id": "date04",
+    "title": "Birth Date",
+    "type": "date"
+  },
+  {
+    "id": "formula_mkqpxwfq",
+    "title": "Next Birthday⚡",
+    "type": "formula"
+  },
+  {
+    "id": "formula_mkqpsjhj",
+    "title": "Age⚡",
+    "type": "formula"
+  },
+  {
+    "id": "numbers",
+    "title": "Brothers",
+    "type": "numbers"
+  },
+  {
+    "id": "numbers8",
+    "title": "Sisters",
+    "type": "numbers"
+  },
+  {
+    "id": "status_1",
+    "title": "Health Condition",
+    "type": "status"
+  },
+  {
+    "id": "mom_works_at_huruma",
+    "title": "Mom works at Huruma",
+    "type": "status"
+  },
+  {
+    "id": "dad_works_at_huruma",
+    "title": "Dad works at Huruma",
+    "type": "status"
+  },
+  {
+    "id": "status1",
+    "title": "Lives With on Breaks",
+    "type": "status"
+  },
+  {
+    "id": "status7",
+    "title": "Sponsorship Type",
+    "type": "status"
+  },
+  {
+    "id": "status74",
+    "title": "Transition Participant",
+    "type": "status"
+  },
+  {
+    "id": "status40",
+    "title": "Transition Code",
+    "type": "status"
+  },
+  {
+    "id": "status3",
+    "title": "Community",
+    "type": "status"
+  },
+  {
+    "id": "text5",
+    "title": "Community Code",
+    "type": "text"
+  },
+  {
+    "id": "status71",
+    "title": "Education Level",
+    "type": "status"
+  },
+  {
+    "id": "status8",
+    "title": "Current Grade",
+    "type": "status"
+  },
+  {
+    "id": "status83",
+    "title": "Handicap",
+    "type": "status"
+  },
+  {
+    "id": "status0",
+    "title": "Country",
+    "type": "status"
+  },
+  {
+    "id": "status37",
+    "title": "Country Code",
+    "type": "status"
+  },
+  {
+    "id": "status6",
+    "title": "Gender",
+    "type": "status"
+  },
+  {
+    "id": "status32",
+    "title": "Team",
+    "type": "status"
+  },
+  {
+    "id": "status4",
+    "title": "Repeating?",
+    "type": "status"
+  },
+  {
+    "id": "text1",
+    "title": "School Adm. Number",
+    "type": "text"
+  },
+  {
+    "id": "text67",
+    "title": "Post Graduation Notes",
+    "type": "text"
+  },
+  {
+    "id": "text6",
+    "title": "Staff Parent Name",
+    "type": "text"
+  },
+  {
+    "id": "brief_bio_of_child",
+    "title": "Brief Bio of Child",
+    "type": "text"
+  },
+  {
+    "id": "color",
+    "title": "Eligible for Sponsorship",
+    "type": "status"
+  },
+  {
+    "id": "item_id",
+    "title": "Item ID",
+    "type": "item_id"
+  },
+  {
+    "id": "text",
+    "title": "comp_ref",
+    "type": "text"
+  },
+  {
+    "id": "numbers9",
+    "title": "Monday Account#",
+    "type": "numbers"
+  },
+  {
+    "id": "text7",
+    "title": "spons_ref",
+    "type": "text"
+  },
+  {
+    "id": "creation_log",
+    "title": "Creation Log",
+    "type": "creation_log"
+  },
+  {
+    "id": "text38",
+    "title": "Photo URL",
+    "type": "text"
+  },
+  {
+    "id": "text_mkq4x4y9",
+    "title": "Portal - List Desc.",
+    "type": "text"
+  },
+  {
+    "id": "text_mkqbwdkm",
+    "title": "Portal - Short Desc.",
+    "type": "text"
+  },
+  {
+    "id": "text_mkqbx4v6",
+    "title": "Portal - Long Desc.",
+    "type": "text"
+  },
+  {
+    "id": "board_relation_mkqahkjm",
+    "title": "Payments",
+    "type": "board_relation"
+  },
+  {
+    "id": "board_relation_mkvqmnex",
+    "title": "CommLog",
+    "type": "board_relation"
+  },
+  {
+    "id": "color_mkqm1hpr",
+    "title": "Platform",
+    "type": "status"
+  },
+  {
+    "id": "multiple_person_mkv1pcx8",
+    "title": "People",
+    "type": "people"
+  },
+  {
+    "id": "text_mkw18yva",
+    "title": "User Board ID",
+    "type": "text"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "boardId": "5270328468",
+  "JSONPayload": {
+    "Grade": "          ",
+    "Gender": "M",
+    "On_Hold": "No",
+    "Comp_Ref": "_HOPEFORHU",
+    "child_id": "9291725123",
+    "eSponsor": "No",
+    "Community": "KENYA COMM",
+    "Image_URL": "https://www.DenariOnline.com/donorservices/viewSQLPhoto.aspx?TABLE=SPONSORD&PK=SPONS_REF&PKValue=6E7D24820D&PHOTO_FIELD=PHOTO",
+    "spons_ref": "6E7D24820D",
+    "Birth_Date": "1963-04-11 05:00:00 UTC",
+    "Child_Code": "Tommy1",
+    "Child_Last": "Kaufman",
+    "Child_First": "Tommy",
+    "Photo_Queue": "No",
+    "Child_Status": "AS",
+    "Minimum_Pledge": 0,
+    "Child_Full_Name": "Tommy Kaufman",
+    "Number_of_Sisters": 0,
+    "Number_of_Brothers": 0
+  },
+  "multiBoardId": "18370775404",
+  "mondayConnection": 4238602
+}

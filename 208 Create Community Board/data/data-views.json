@@ -1,0 +1,2489 @@
+{
+  "data": {
+    "boards": [
+      {
+        "views": [
+          {
+            "name": "New Child Form",
+            "settings": {
+              "columns": {
+                "name": {
+                  "visible": true,
+                  "question": "Child Full Name",
+                  "type": "name",
+                  "description": "",
+                  "mandatory": true
+                },
+                "status01": {
+                  "visible": false,
+                  "question": "Sync Status",
+                  "type": "color",
+                  "mandatory": false
+                },
+                "text3": {
+                  "visible": true,
+                  "question": "First Name",
+                  "type": "text",
+                  "mandatory": true
+                },
+                "text9": {
+                  "visible": true,
+                  "question": "Last Name",
+                  "type": "text",
+                  "mandatory": true
+                },
+                "text63": {
+                  "visible": true,
+                  "question": "SP Code",
+                  "type": "text",
+                  "mandatory": true
+                },
+                "date04": {
+                  "visible": true,
+                  "question": "Birthdate",
+                  "type": "date",
+                  "mandatory": true,
+                  "description": "Enter actual date of birth with birth year."
+                },
+                "date": {
+                  "visible": false,
+                  "question": "Next Birthday",
+                  "type": "date",
+                  "mandatory": false
+                },
+                "numbers": {
+                  "visible": true,
+                  "question": "Brothers",
+                  "type": "numeric",
+                  "mandatory": true
+                },
+                "numbers8": {
+                  "visible": true,
+                  "question": "Sisters",
+                  "type": "numeric",
+                  "mandatory": true
+                },
+                "status_1": {
+                  "visible": true,
+                  "question": "Health Condition",
+                  "type": "color",
+                  "mandatory": true,
+                  "description": ""
+                },
+                "mom_works_at_huruma": {
+                  "visible": true,
+                  "question": "Mom works at Huruma",
+                  "type": "color",
+                  "mandatory": true,
+                  "conditionalRules": ["cacbaefe-65cc-37bb-12c9-c37b4cbf1677"],
+                  "question_include_conditional": false
+                },
+                "dad_works_at_huruma": {
+                  "visible": true,
+                  "question": "Dad works at Huruma",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status1": {
+                  "visible": true,
+                  "question": "Lives with on Breaks",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status2": {
+                  "visible": false,
+                  "question": "Hold Reason",
+                  "type": "color",
+                  "conditionalRules": [],
+                  "question_include_conditional": false
+                },
+                "date0": {
+                  "visible": false,
+                  "question": "Hold Date",
+                  "type": "date"
+                },
+                "status7": {
+                  "visible": true,
+                  "question": "Sponsorship Type",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status74": {
+                  "visible": false,
+                  "question": "Transition Participant",
+                  "type": "color"
+                },
+                "status3": {
+                  "visible": false,
+                  "question": "Community",
+                  "type": "color"
+                },
+                "text5": {
+                  "visible": false,
+                  "question": "Community Code",
+                  "type": "text"
+                },
+                "status71": {
+                  "visible": false,
+                  "question": "Education Level Achieved",
+                  "type": "color",
+                  "mandatory": false
+                },
+                "status8": {
+                  "visible": true,
+                  "question": "Current Grade",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status83": {
+                  "visible": true,
+                  "question": "Handicap",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status0": {
+                  "visible": false,
+                  "question": "Country",
+                  "type": "color"
+                },
+                "status37": {
+                  "visible": false,
+                  "question": "Country Code",
+                  "type": "color"
+                },
+                "status6": {
+                  "visible": true,
+                  "question": "Gender",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status32": {
+                  "visible": true,
+                  "question": "Team",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "status4": {
+                  "visible": true,
+                  "question": "Repeating?",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "text1": {
+                  "visible": false,
+                  "question": "School Adm. Number",
+                  "type": "text"
+                },
+                "long_text": {
+                  "visible": false,
+                  "question": "Post Graduation Notes",
+                  "type": "long-text"
+                },
+                "long_text1": {
+                  "visible": true,
+                  "question": "Staff parent",
+                  "type": "long-text",
+                  "description": "Enter name of parent who works at Huruma"
+                },
+                "long_text17": {
+                  "visible": false,
+                  "question": "Brief Bio of Child",
+                  "type": "long-text"
+                },
+                "color": {
+                  "visible": true,
+                  "question": "Eligible for Sponsorship?",
+                  "type": "color",
+                  "mandatory": true
+                },
+                "text26": {
+                  "visible": false,
+                  "question": "Sponsor 1",
+                  "type": "text"
+                },
+                "text8": {
+                  "visible": false,
+                  "question": "Sponsor 2",
+                  "type": "text"
+                },
+                "text33": {
+                  "visible": false,
+                  "question": "Sponsor 3",
+                  "type": "text"
+                },
+                "text": {
+                  "visible": false,
+                  "question": "comp_ref",
+                  "type": "text"
+                },
+                "text7": {
+                  "visible": false,
+                  "question": "spons_ref",
+                  "type": "text"
+                },
+                "pulse__update": {
+                  "visible": true,
+                  "question": "Update",
+                  "type": "update"
+                },
+                "text6": {
+                  "visible": true,
+                  "question": "Staff Parent Name",
+                  "type": "text",
+                  "description": "If a parent is on staff then enter the parent's name"
+                },
+                "status": {
+                  "visible": false,
+                  "question": "Child Status",
+                  "type": "color",
+                  "mandatory": false,
+                  "description": ""
+                },
+                "text17": {
+                  "question": "SPCode",
+                  "visible": true,
+                  "mandatory": true,
+                  "description": "Unique identifier of the child",
+                  "type": "text"
+                },
+                "true___false": {
+                  "visible": true,
+                  "type": "boolean",
+                  "question": "Hold",
+                  "description": "Choose YES to put Child on Hold",
+                  "mandatory": true
+                },
+                "single_select": {
+                  "visible": true,
+                  "type": "color",
+                  "question": "Hold?",
+                  "mandatory": true
+                },
+                "status77": {
+                  "question": "On Hold?",
+                  "description": "\" 1 \" means child is on hold.",
+                  "visible": false,
+                  "conditionalRules": [],
+                  "question_include_conditional": false,
+                  "type": "color"
+                },
+                "files": {
+                  "visible": true,
+                  "question": "Pictures & Files",
+                  "type": "file",
+                  "description": "Upload one photo of the child"
+                },
+                "numbers1": {
+                  "visible": false,
+                  "question": "Age",
+                  "type": "numeric",
+                  "mandatory": false
+                },
+                "status40": {
+                  "visible": false,
+                  "question": "Transition Code",
+                  "type": "color"
+                },
+                "long_text_mkq4g122": {
+                  "question": "Portal - Long Desc.",
+                  "visible": false,
+                  "prefill": {
+                    "enabled": true,
+                    "source": "account",
+                    "lookup": "name"
+                  }
+                },
+                "text_mkqbwdkm": {
+                  "question": "Portal - Short Desc.",
+                  "type": "text"
+                },
+                "text_mkqbx4v6": {
+                  "question": "Portal - Long Desc.",
+                  "type": "text"
+                },
+                "color_mkqm1hpr": {
+                  "question": "Platform",
+                  "type": "color"
+                },
+                "subitems": {
+                  "type": "subtasks",
+                  "question": "Subitems",
+                  "visible": false,
+                  "subtasks_board_id": 5310571139
+                },
+                "board_relation_mkqa3b0p": {
+                  "type": "board-relation",
+                  "question": "Sponsorships",
+                  "visible": false
+                },
+                "color_mkqftpf3": {
+                  "type": "color",
+                  "question": "Data Validated⚡",
+                  "visible": false
+                },
+                "date9": {
+                  "type": "date",
+                  "question": "Last Post Date⚡",
+                  "visible": false
+                },
+                "connect_boards__1": {
+                  "type": "board-relation",
+                  "question": "HTF Child Details - H4H",
+                  "visible": false
+                },
+                "text67": {
+                  "type": "text",
+                  "question": "Post Graduation Notes",
+                  "visible": false
+                },
+                "brief_bio_of_child": {
+                  "type": "text",
+                  "question": "Brief Bio of Child",
+                  "visible": false
+                },
+                "numbers9": {
+                  "type": "numeric",
+                  "question": "Monday Account#",
+                  "visible": false
+                },
+                "text38": {
+                  "type": "text",
+                  "question": "Photo URL",
+                  "visible": false
+                },
+                "text_mkq4x4y9": {
+                  "type": "text",
+                  "question": "Portal - List Desc.",
+                  "visible": false
+                },
+                "board_relation_mkqahkjm": {
+                  "type": "board-relation",
+                  "question": "Payments",
+                  "visible": false
+                },
+                "board_relation_mkqa92m3": {
+                  "type": "board-relation",
+                  "question": "CommLog",
+                  "visible": false
+                },
+                "multiple_person_mkv1pcx8": {
+                  "type": "multiple-person",
+                  "question": "People",
+                  "visible": false
+                }
+              },
+              "formTitle": "Adding a New Child",
+              "show_name_question": true,
+              "backgroundColor": null,
+              "headerColor": null,
+              "createdBy": 49778958,
+              "formLogoPath": "https://res.cloudinary.com/monday-platform/image/upload/v1696368010/board_views_images/logos/1696368014757_b0f30fc7-9873-cc9e-f49a-1db85a0d3a6d.png",
+              "userUploadedLogo": true,
+              "hideMondayLogo": true,
+              "restrictByResponseLimit": false,
+              "responseLimit": 1,
+              "submit_another": "click",
+              "useFormInternally": true,
+              "show_update_question": true,
+              "tempFormFont": "Poppins",
+              "formDirection": "ltr",
+              "shorten_url": null,
+              "shorten_url_checked": false,
+              "group_id": "new_group84814",
+              "conditionalRules": {
+                "cacbaefe-65cc-37bb-12c9-c37b4cbf1677": {
+                  "ruleQuestionId": "mom_works_at_huruma",
+                  "ruleQuestionType": "color",
+                  "value": ["0"]
+                }
+              },
+              "backgroundImage": "https://dapulse-res.cloudinary.com/image/upload/v1643895762/form-backgrounds/eberhard-grossgasteiger-XAxEp-NKBiQ-unsplash.jpg",
+              "activeBackgroundType": "image",
+              "restrictByDate": false,
+              "formDescription": "",
+              "is_survey": true,
+              "sortedQuestionsList": [
+                "name",
+                "status01",
+                "status",
+                "text17",
+                "text3",
+                "text9",
+                "files",
+                "date04",
+                "numbers",
+                "numbers8",
+                "status_1",
+                "mom_works_at_huruma",
+                "dad_works_at_huruma",
+                "status1",
+                "status77",
+                "status2",
+                "date0",
+                "status7",
+                "status74",
+                "status40",
+                "status3",
+                "text5",
+                "status71",
+                "status8",
+                "status83",
+                "status0",
+                "status37",
+                "status6",
+                "status32",
+                "status4",
+                "text1",
+                "text67",
+                "text6",
+                "brief_bio_of_child",
+                "color",
+                "text",
+                "numbers9",
+                "text7",
+                "pulse__update",
+                "date9",
+                "subitems",
+                "board_relation_mkqa3b0p",
+                "color_mkqftpf3",
+                "connect_boards__1",
+                "text38",
+                "text_mkq4x4y9",
+                "text_mkqbwdkm",
+                "text_mkqbx4v6",
+                "board_relation_mkqahkjm",
+                "board_relation_mkqa92m3",
+                "color_mkqm1hpr",
+                "multiple_person_mkv1pcx8",
+                "date",
+                "numbers1",
+                "text26",
+                "text8",
+                "text33"
+              ],
+              "showWelcomeView": false,
+              "formFormat": "classic",
+              "formLayout": "full-left",
+              "syncQuestionAndColumnsTitles": true,
+              "oldSortedQuestionsList": [
+                "name",
+                "status01",
+                "status",
+                "text17",
+                "text3",
+                "text9",
+                "files",
+                "date04",
+                "date",
+                "numbers1",
+                "numbers",
+                "numbers8",
+                "status_1",
+                "mom_works_at_huruma",
+                "dad_works_at_huruma",
+                "status1",
+                "status77",
+                "status2",
+                "date0",
+                "status7",
+                "status74",
+                "status40",
+                "status3",
+                "text5",
+                "status71",
+                "status8",
+                "status83",
+                "status0",
+                "status37",
+                "status6",
+                "status32",
+                "status4",
+                "text1",
+                "text67",
+                "text6",
+                "brief_bio_of_child",
+                "color",
+                "text26",
+                "text8",
+                "text33",
+                "text",
+                "numbers9",
+                "text7",
+                "pulse__update",
+                "date9"
+              ]
+            },
+            "type": "FormBoardView"
+          },
+          {
+            "name": "Graduated",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "text17",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date04",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text26",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text33",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "item_id",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Birthday List",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status77",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status2",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status71",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text26",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text33",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "item_id",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "On Hold",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date04",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status71",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text26",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text33",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "item_id",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Changed schools",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Children by grade",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color_mkqftpf3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "button_mkqfhg6c",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text17",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards__1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status77",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status2",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date04",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula_mkqpxwfq",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula_mkqpsjhj",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status71",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "item_id",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text38",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkq4x4y9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkqbwdkm",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkqbx4v6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqahkjm",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqa92m3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqa3b0p",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color_mkqm1hpr",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ],
+                "subitems_column_properties": []
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Need to sync",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Missing Birthdate",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "button0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status77",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status2",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status71",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "item_id",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text38",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status87",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status63",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status772",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards36",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status22",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status10",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "link_to_birthdate",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ],
+                "subitems_column_properties": [
+                  {
+                    "column_id": "person",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date0",
+                    "visible": false
+                  }
+                ],
+                "column_order": [
+                  "name",
+                  "subitems",
+                  "text17",
+                  "button0",
+                  "formula4",
+                  "status01",
+                  "date9",
+                  "last_updated_1",
+                  "status",
+                  "status77",
+                  "status2",
+                  "date0",
+                  "text3",
+                  "text9",
+                  "text7",
+                  "date",
+                  "date04",
+                  "numbers1",
+                  "numbers",
+                  "numbers8",
+                  "status_1",
+                  "mom_works_at_huruma",
+                  "dad_works_at_huruma",
+                  "status1",
+                  "status7",
+                  "status74",
+                  "status40",
+                  "status3",
+                  "text5",
+                  "status71",
+                  "status8",
+                  "status83",
+                  "status0",
+                  "status37",
+                  "status6",
+                  "status32",
+                  "status4",
+                  "text1",
+                  "text67",
+                  "text6",
+                  "brief_bio_of_child",
+                  "color",
+                  "item_id",
+                  "text",
+                  "numbers9",
+                  "formula0",
+                  "mirror31",
+                  "text54",
+                  "files",
+                  "creation_log",
+                  "text38",
+                  "link_to_birthdate",
+                  "mirror5",
+                  "mirror",
+                  "status10",
+                  "connect_boards3",
+                  "mirror4",
+                  "status25",
+                  "connect_boards1",
+                  "status22",
+                  "connect_boards36",
+                  "mirror1",
+                  "status772",
+                  "connect_boards7",
+                  "mirror32",
+                  "mirror3",
+                  "status63",
+                  "connect_boards5",
+                  "mirror15",
+                  "mirror0",
+                  "numbers2",
+                  "status87",
+                  "connect_boards72",
+                  "mirror40"
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Eligible for sponsorship",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "COH",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "BEN",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "STAFF",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "COMM",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Recently Added",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Synced this Month",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "All Active",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Posting",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Recently Added",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "pulse_updated_mkppzbe4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ],
+                "subitems_column_properties": []
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Changed Recently",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ],
+                "column_order": [
+                  "name",
+                  "subitems",
+                  "files",
+                  "color_mkqb47sz",
+                  "boolean_mkqb18es",
+                  "text17",
+                  "connect_boards__1",
+                  "button0",
+                  "formula4",
+                  "status01",
+                  "date9",
+                  "last_updated_1",
+                  "status",
+                  "status77",
+                  "status2",
+                  "date0",
+                  "text3",
+                  "text9",
+                  "date04",
+                  "date",
+                  "numbers1",
+                  "numbers",
+                  "numbers8",
+                  "status_1",
+                  "mom_works_at_huruma",
+                  "dad_works_at_huruma",
+                  "status1",
+                  "status7",
+                  "status74",
+                  "status40",
+                  "status3",
+                  "text5",
+                  "status71",
+                  "status8",
+                  "status83",
+                  "status0",
+                  "status37",
+                  "status6",
+                  "status32",
+                  "status4",
+                  "text1",
+                  "text67",
+                  "text6",
+                  "brief_bio_of_child",
+                  "color",
+                  "item_id",
+                  "text",
+                  "numbers9",
+                  "text7",
+                  "creation_log",
+                  "text38",
+                  "pulse_updated_mkppzbe4",
+                  "text_mkq4x4y9",
+                  "long_text_mkq4j8x2",
+                  "long_text_mkq4g122",
+                  "board_relation_mkqahkjm",
+                  "board_relation_mkqa92m3",
+                  "board_relation_mkqa3b0p"
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Set Required Columns",
+            "settings": {
+              "app_feature_id": 10370342
+            },
+            "type": "FeatureBoardView"
+          },
+          {
+            "name": "COMM",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Multi-Select Dev",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkqa3b0p",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkvqmnex",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color_mkqftpf3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "button_mkqfhg6c",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards__1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status77",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status2",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date04",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula_mkqpxwfq",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula_mkqpsjhj",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text5",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status71",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text38",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkq4x4y9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkqbwdkm",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkqbx4v6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqahkjm",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqa92m3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color_mkqm1hpr",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "multiple_person_mkv1pcx8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkw18yva",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ],
+                "subitems_column_properties": []
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkxjaryw",
+                    "visible": false
+                  }
+                ]
+              }
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {}
+            },
+            "type": "TableBoardView"
+          },
+          {
+            "name": "Table",
+            "settings": {
+              "columns": {
+                "column_properties": [
+                  {
+                    "column_id": "board_relation_mkqa3b0p",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkvqmnex",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text17",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color_mkqftpf3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "button_mkqfhg6c",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status01",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "last_updated_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "connect_boards__1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "files",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status77",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status2",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "date04",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula_mkqpxwfq",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "formula_mkqpsjhj",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status_1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "mom_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "dad_works_at_huruma",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status74",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status40",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status71",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status83",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status0",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status37",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status32",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "status4",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text1",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text67",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "brief_bio_of_child",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "item_id",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "numbers9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text7",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "creation_log",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text38",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkq4x4y9",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkqbwdkm",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkqbx4v6",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqahkjm",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "board_relation_mkqa92m3",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "color_mkqm1hpr",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "multiple_person_mkv1pcx8",
+                    "visible": false
+                  },
+                  {
+                    "column_id": "text_mkw18yva",
+                    "visible": false
+                  }
+                ],
+                "subitems_column_properties": []
+              }
+            },
+            "type": "TableBoardView"
+          }
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "request_id": "39ad2263-d19b-96d3-a5a0-1118e475650c"
+  }
+}

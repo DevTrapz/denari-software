@@ -1,0 +1,12 @@
+[
+  "test@example.com",
+  "jane.doe@company.co.uk",
+  "user-name@domain.io",
+  "invalid-email",
+  "user@domain",
+  "@example.com",
+  "user@.com",
+  "user@domain.c",
+  "oops@gmail,com",
+  "student@school,edu"
+]

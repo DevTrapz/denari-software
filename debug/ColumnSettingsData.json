@@ -1,0 +1,153 @@
+{
+  "data": {
+    "boards": [
+      {
+        "columns": [
+          {
+            "id": "dropdown__1",
+            "title": "Classifications",
+            "settings": {
+              "labels": [
+                {
+                  "id": 1,
+                  "label": "ALLM",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 2,
+                  "label": "EMAL",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 3,
+                  "label": "Keep",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 4,
+                  "label": "LIST",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 5,
+                  "label": "NOMW",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 6,
+                  "label": "NOPHONE",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 7,
+                  "label": "RECEI",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 8,
+                  "label": "SNBD",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 9,
+                  "label": "LIMITMAIL",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 10,
+                  "label": "YES",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 11,
+                  "label": "TomTest",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 12,
+                  "label": "JimTest",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 13,
+                  "label": "NO PHONE",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 14,
+                  "label": "CALLS",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 15,
+                  "label": "BOARD",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 16,
+                  "label": "REMOVE",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 17,
+                  "label": "NOMAIL",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 18,
+                  "label": "DVPT",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 19,
+                  "label": "CSML",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 20,
+                  "label": "NOSM",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 21,
+                  "label": "NEML",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 22,
+                  "label": "Chad",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 23,
+                  "label": "NoCalls",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 24,
+                  "label": "DontMail",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 25,
+                  "label": "Snow",
+                  "is_deactivated": false
+                },
+                {
+                  "id": 26,
+                  "label": "NoEmail",
+                  "is_deactivated": false
+                }
+              ],
+              "limit_select": true,
+              "label_limit_count": 10
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "extensions": {
+    "request_id": "1a90ce97-3ccf-95fc-b772-fa349e00bc77"
+  }
+}
