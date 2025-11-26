@@ -1,0 +1,494 @@
+{
+  "donorBoard": 
+{
+    "columns": [
+        {
+            "title": "Name",
+            "id": "name",
+            "type": "name"
+        },
+        {
+            "title": "Subitems",
+            "id": "subitems",
+            "type": "subtasks"
+        },
+        {
+            "title": "People",
+            "id": "people",
+            "type": "people"
+        },
+        {
+            "title": "Next Contact Date",
+            "id": "date0",
+            "type": "date"
+        },
+        {
+            "title": "Next Contact Type",
+            "id": "status7",
+            "type": "status"
+        },
+        {
+            "title": "Post-It Note",
+            "id": "post_it_note",
+            "type": "text"
+        },
+        {
+            "title": "Tags",
+            "id": "tags",
+            "type": "tags"
+        },
+        {
+            "title": "Files",
+            "id": "files",
+            "type": "file"
+        },
+        {
+            "title": "Target Gift Amt",
+            "id": "numbers2",
+            "type": "numbers"
+        },
+        {
+            "title": "Target Gift Date",
+            "id": "date5",
+            "type": "date"
+        },
+        {
+            "title": "Gift Probability %",
+            "id": "numbers17",
+            "type": "numbers"
+        },
+        {
+            "title": "Valuation",
+            "id": "formula",
+            "type": "formula"
+        },
+        {
+            "title": "Cultivation",
+            "id": "status5",
+            "type": "status"
+        },
+        {
+            "title": "Full Name",
+            "dolMappedName": "full_name",
+            "id": "text3",
+            "type": "text"
+        },
+        {
+            "title": "Organization",
+            "id": "text4",
+            "type": "text"
+        },
+        {
+            "title": "Position",
+            "dolMappedName": "position",
+            "id": "text981",
+            "type": "text"
+        },
+        {
+            "title": "First",
+            "dolMappedName": "first",
+            "id": "text",
+            "type": "text"
+        },
+        {
+            "title": "Spouse",
+            "dolMappedName": "spouse",
+            "id": "text7",
+            "type": "text"
+        },
+        {
+            "title": "Last",
+            "dolMappedName": "last",
+            "id": "last6",
+            "type": "text"
+        },
+        {
+            "title": "Email",
+            "dolMappedName": "email",
+            "id": "email",
+            "type": "email"
+        },
+        {
+            "title": "whatapp",
+            "id": "text_mky0stjt",
+            "type": "text"
+        },
+        {
+            "title": "Cellular",
+            "dolMappedName": "cellular",
+            "id": "phone",
+            "type": "phone"
+        },
+        {
+            "title": "Home Phone",
+            "dolMappedName": "home_phone",
+            "id": "phone8",
+            "type": "phone"
+        },
+        {
+            "title": "Work Phone",
+            "dolMappedName": "work_phone",
+            "id": "phone98",
+            "type": "phone"
+        },
+        {
+            "title": "Extension",
+            "id": "text39",
+            "type": "text"
+        },
+        {
+            "title": "Location",
+            "id": "text_mkvbdfx2",
+            "type": "text"
+        },
+        {
+            "title": "Calendar Link",
+            "id": "link",
+            "type": "link"
+        },
+        {
+            "title": "Website",
+            "id": "link9",
+            "type": "link"
+        },
+        {
+            "title": "Item ID",
+            "id": "item_id7",
+            "type": "item_id"
+        },
+        {
+            "title": "Last Updated",
+            "id": "last_updated",
+            "type": "last_updated"
+        },
+        {
+            "title": "Creation Log",
+            "id": "creation_log8",
+            "type": "creation_log"
+        },
+        {
+            "title": "name1_ref",
+            "id": "text09",
+            "type": "text"
+        },
+        {
+            "title": "Comp_ref",
+            "id": "text74",
+            "type": "text"
+        },
+        {
+            "title": "Denari Acct #",
+            "id": "account_num",
+            "type": "text"
+        },
+        {
+            "title": "Stats Last Updated",
+            "dolMappedName": "updated",
+            "id": "date7",
+            "type": "date"
+        },
+        {
+            "title": "Regen Statistics",
+            "id": "button22",
+            "type": "button"
+        },
+        {
+            "title": "Regen Status",
+            "id": "status_16",
+            "type": "status"
+        },
+        {
+            "title": "First Gift Date",
+            "dolMappedName": "first_gift_date",
+            "id": "date",
+            "type": "date"
+        },
+        {
+            "title": "First Gift Amount",
+            "dolMappedName": "first_gift_amount",
+            "id": "numbers",
+            "type": "numbers"
+        },
+        {
+            "title": "Last Gift Date",
+            "dolMappedName": "last_gift_date",
+            "id": "date3",
+            "type": "date"
+        },
+        {
+            "title": "Last Gift Amount",
+            "dolMappedName": "last_gift_amount",
+            "id": "numbers27",
+            "type": "numbers"
+        },
+        {
+            "title": "Largest Gift",
+            "dolMappedName": "largest_gift_amount",
+            "id": "numbers4",
+            "type": "numbers"
+        },
+        {
+            "title": "Total Gifts",
+            "dolMappedName": "lifetime_gift_total",
+            "id": "numbers3",
+            "type": "numbers"
+        },
+        {
+            "title": "Gift Count",
+            "dolMappedName": "lifetime_gift_count",
+            "id": "numbers0",
+            "type": "numbers"
+        },
+        {
+            "title": "YTD Total",
+            "dolMappedName": "ytd_amount",
+            "id": "numbers24",
+            "type": "numbers"
+        },
+        {
+            "title": "YTD Non-Charitable",
+            "dolMappedName": "ytd_nonchar",
+            "id": "numbers06",
+            "type": "numbers"
+        },
+        {
+            "title": "Last Year Total",
+            "dolMappedName": "last_year_amount",
+            "id": "numbers49",
+            "type": "numbers"
+        },
+        {
+            "title": "2 Years Ago Total",
+            "dolMappedName": "yearsago2_amount",
+            "id": "numbers6",
+            "type": "numbers"
+        },
+        {
+            "title": "3 Years Ago Total",
+            "dolMappedName": "yearsago3_amount",
+            "id": "numbers45",
+            "type": "numbers"
+        },
+        {
+            "title": "4 Years Ago Total",
+            "dolMappedName": "yearsago4_amount",
+            "id": "numbers277",
+            "type": "numbers"
+        },
+        {
+            "title": "Gift History Query",
+            "id": "button7",
+            "type": "button"
+        },
+        {
+            "title": "Report Status",
+            "id": "status_17",
+            "type": "status"
+        },
+        {
+            "title": "Created",
+            "id": "date9",
+            "type": "date"
+        },
+        {
+            "title": "Case Worker Email Imported",
+            "dolMappedName": "caseW_email",
+            "id": "text68",
+            "type": "text"
+        },
+        {
+            "title": "Board Initials",
+            "id": "text24",
+            "type": "text"
+        },
+        {
+            "title": "Birthday",
+            "dolMappedName": "dob",
+            "id": "date8",
+            "type": "date"
+        },
+        {
+            "title": "Next Birthday",
+            "id": "formula_mkxw1p1t",
+            "type": "formula"
+        },
+        {
+            "title": "Age",
+            "id": "formula2",
+            "type": "formula"
+        },
+        {
+            "title": "Body of Text",
+            "id": "body",
+            "type": "text"
+        },
+        {
+            "title": "Send Text Message",
+            "id": "button21",
+            "type": "button"
+        },
+        {
+            "title": "Texting Status",
+            "id": "status_192",
+            "type": "status"
+        },
+        {
+            "title": "Email Subject",
+            "id": "text8",
+            "type": "text"
+        },
+        {
+            "title": "Email HTML",
+            "id": "text6",
+            "type": "text"
+        },
+        {
+            "title": "Email Status",
+            "id": "status_11",
+            "type": "status"
+        },
+        {
+            "title": "Send Email Now",
+            "id": "button4",
+            "type": "button"
+        },
+        {
+            "title": "link to Subitems of Donors - Lifesongs",
+            "id": "board_relation",
+            "type": "board_relation"
+        },
+        {
+            "title": "User Board ID",
+            "id": "user_board_id__1",
+            "type": "text"
+        },
+        {
+            "title": "User Board Name",
+            "id": "connect_boards__1",
+            "type": "board_relation"
+        },
+        {
+            "title": "Classifications",
+            "id": "dropdown__1",
+            "type": "dropdown"
+        },
+        {
+            "title": "Classifications",
+            "id": "text_mkxwpvhy",
+            "type": "text"
+        },
+        {
+            "title": "OLD CW Email",
+            "id": "text0__1",
+            "type": "text"
+        },
+        {
+            "title": "Denari Source of Name",
+            "dolMappedName": "source",
+            "id": "text_mkxwx498",
+            "type": "text"
+        },
+        {
+            "title": "post_it_note",
+            "dolMappedName": "post_it_note",
+            "id": "text_mkxw9c91",
+            "type": "text"
+        },
+        {
+            "title": "smallest_gift_amount",
+            "dolMappedName": "smallest_gift_amount",
+            "id": "text_mkxwz1jh",
+            "type": "text"
+        },
+        {
+            "title": "average_gift_amount",
+            "dolMappedName": "average_gift_amount",
+            "id": "text_mkxwwy9z",
+            "type": "text"
+        },
+        {
+            "title": "r",
+            "dolMappedName": "r",
+            "id": "text_mkxw5w36",
+            "type": "text"
+        },
+        {
+            "title": "f",
+            "dolMappedName": "f",
+            "id": "text_mkxwjcst",
+            "type": "text"
+        },
+        {
+            "title": "a",
+            "dolMappedName": "a",
+            "id": "text_mkxws7bc",
+            "type": "text"
+        },
+        {
+            "title": "mdl_tags",
+            "id": "text_mkxwh1fj",
+            "type": "text"
+        },
+        {
+            "title": "powertracker2",
+            "dolMappedName": "powertracker2",
+            "id": "text_mkxwdwrd",
+            "type": "text"
+        },
+        {
+            "title": "mdl_override",
+            "dolMappedName": "mdl_override",
+            "id": "text_mkxwe8sw",
+            "type": "text"
+        },
+        {
+            "title": "case_auto_del",
+            "dolMappedName": "case_auto_del",
+            "id": "text_mkxw94rn",
+            "type": "text"
+        },
+        {
+            "title": "fcatCodes",
+            "dolMappedName": "fcatcodes",
+            "id": "text_mkxwqt4",
+            "type": "text"
+        },
+        {     
+            "title": "contact_id",
+            "dolMappedName": "contact_id",
+            "id": "text_mkxwwhm2",
+            "type": "text"
+        },
+        {
+            "title": "home_phone",
+            "dolMappedName": "home_phone",
+            "id": "text_mkxwxzqt",
+            "type": "text"
+        },
+        {
+            "title": "work_phone",
+            "dolMappedName": "work_phone",
+            "id": "text_mkxwf2e2",
+            "type": "text"
+        },
+        {
+            "title": "case_worker",
+            "dolMappedName": "case_worker",
+            "id": "text_mkxwbrg6",
+            "type": "text"
+        },
+        {
+            "title": "caseW_email",
+            "dolMappedName": "caseW_email",
+            "id": "text_mkxwwb3w",
+            "type": "text"
+        },
+        {
+            "title": "updated",
+            "dolMappedName": "updated",
+            "id": "text_mkxwqr36",
+            "type": "text"
+        }
+    ]
+}    
+}

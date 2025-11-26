@@ -1,0 +1,19 @@
+{
+  "name": "utility-functions",
+  "version": "1.0.0",
+  "description": "resuable and tested functions to use in denari make.com system",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "andrew apodaca",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5",
+    "moment": "^2.30.1"
+  }
+}
